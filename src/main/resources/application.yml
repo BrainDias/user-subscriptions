@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: subscriptions-management
+  datasource:
+    username: BrainDias
+    password: usersub
+    url: jdbc:postgresql://postgres:5432/subscriptionsdb
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
